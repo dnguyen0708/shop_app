@@ -1,0 +1,38 @@
+.navbar {
+    height: var(--nav-bar-height);
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding-bottom: 2rem;
+    background-color: rgb(212, 122, 212);
+}
+
+.navbar ul {
+    display: flex;
+    width: 20%;
+    justify-content: space-around;
+    align-items: flex-end;
+    list-style: none;
+}
+
+.navbar ul li,
+ul li:active,
+ul li:visited,
+.logo {
+    /* color: black; */
+    color: white;
+}
+
+.indicator {
+    position: relative;
+    left: -19px;
+    top: 5px;
+}
+
+.navbar .logo {
+    font-size: 2rem;
+}
+
+li {
+    font-size: 1.5rem;
+}

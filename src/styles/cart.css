@@ -1,0 +1,50 @@
+.content {
+    margin: 0 auto;
+    width: 30%;
+    /* height: 100vh; */
+    /* remove height later */
+}
+
+.item {
+    height: 290px;
+    display: flex;
+    padding: 6px;
+    margin: 6px 0;
+}
+
+.item img {
+    flex: 1.5;
+    width: 50%;
+    height: auto;
+}
+
+.item-info {
+    flex: 1;
+}
+
+.item-info .price {
+    margin: 15px 0;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.item-quantity {
+    font-size: 2rem;
+    margin: 0 12px;
+}
+
+.quantity-btn {
+    padding: 6px 12px;
+    border: 2px solid black;
+    font-size: 1.5rem;
+    width: 50px;
+}
+
+.content .btn {
+    width: 50%;
+}
+
+.checkout-details {
+    margin-top: 12px;
+    font-size: 1.5rem;
+}
