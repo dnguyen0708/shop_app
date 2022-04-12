@@ -27,9 +27,7 @@ describe("test cart functionality", () => {
     });
 
     it("should update items in cart with correct quantity (from 5 to 6) when add is clicked", () => {
-        const onChangeMock = () => {
-            return [{ "item": "random obj", quantity: 6 }];
-        }
+        const onChangeMock = jest.fn();
         const currentCart = [{ "item": "random Obj", quantity: 5 }];
         render(<Cart items={currentCart} updateCart={onChangeMock} />);
         const button = screen.getAllByTestId('test-add');
@@ -38,9 +36,7 @@ describe("test cart functionality", () => {
     });
 
     it("should update items in cart with correct quantity (from 5 to 4) when add is clicked", () => {
-        const onChangeMock = () => {
-            return [{ "item": "random obj", quantity: 4 }];
-        }
+        const onChangeMock = jest.fn();
         const currentCart = [{ "item": "random Obj", quantity: 5 }];
         render(<Cart items={currentCart} updateCart={onChangeMock} />);
         const button = screen.getAllByTestId('test-subtract');

@@ -4,11 +4,6 @@ import App from './App';
 import userEvent from '@testing-library/user-event';
 
 describe("App component test", () => {
-  it("should render Home component on start up", () => {
-    render(<App />);
-    const home = screen.getByRole('heading');
-    expect(home).toHaveTextContent(/home component/i);
-  });
 
   it("should render shop component when user click shop in navigation bar", () => {
     render(<App />);

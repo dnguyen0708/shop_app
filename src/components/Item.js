@@ -1,5 +1,5 @@
 function limitExceeded() {
-    alert("can only add 20 units");
+    alert("can only add a maximum of 20 units");
     return 20;
 }
 

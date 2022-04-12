@@ -1,0 +1,6 @@
+.home {
+    height: calc(100vh - var(--nav-bar-height));
+    background: url('../images/laptop1.jpg');
+    background-position: center;
+    background-size: cover;
+}
