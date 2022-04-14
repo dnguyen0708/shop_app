@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/shop_app/static/css/main.9196cdaa.css",
+    "main.js": "/shop_app/static/js/main.cb9705d9.js",
+    "static/media/laptop1.jpg": "/shop_app/static/media/laptop1.7a79477d4047e7baf548.jpg",
+    "static/media/asus_rog_zephyrus_g15.jpg": "/shop_app/static/media/asus_rog_zephyrus_g15.793e1695edb4fa891f62.jpg",
+    "static/media/acer_predator_triton_500.jpg": "/shop_app/static/media/acer_predator_triton_500.948db0f1435f96159139.jpg",
+    "static/media/hp_omen_16.jpg": "/shop_app/static/media/hp_omen_16.b79864b793a6376b4d1a.jpg",
+    "static/media/razer_blade_15.jpg": "/shop_app/static/media/razer_blade_15.bfe8cbd190f8605e6eb4.jpg",
+    "static/media/msi_ge75_raider_17.jpg": "/shop_app/static/media/msi_ge75_raider_17.ec8b5e6c0c8c736f1bee.jpg",
+    "static/media/acer_predator_helios_300_.jpg": "/shop_app/static/media/acer_predator_helios_300_.6b1d1c785a071e666f7d.jpg",
+    "static/media/msi_raider_ge66.jpg": "/shop_app/static/media/msi_raider_ge66.4f3301da2df289f7c53d.jpg",
+    "static/media/asus_rog_strix_scar_15_.jpg": "/shop_app/static/media/asus_rog_strix_scar_15_.2cb8392d76dddcd3c3cd.jpg",
+    "static/media/razer_blade_15(1).jpg": "/shop_app/static/media/razer_blade_15(1).49a7bef6bf7c0328b183.jpg",
+    "index.html": "/shop_app/index.html",
+    "main.9196cdaa.css.map": "/shop_app/static/css/main.9196cdaa.css.map",
+    "main.cb9705d9.js.map": "/shop_app/static/js/main.cb9705d9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9196cdaa.css",
+    "static/js/main.cb9705d9.js"
+  ]
+}
